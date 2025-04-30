@@ -67,7 +67,7 @@ public class Song {
 	public void showInfo() {
 		
 		System.out.println(artist + "," + title + "," + "(" + album + "," + year + "," + track + "," + composer + ")");
-		
+		System.out.println("---------------------------------------------------------");
 		
 	}
 

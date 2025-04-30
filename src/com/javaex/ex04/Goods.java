@@ -7,6 +7,15 @@ public class Goods {
 	private int price;
 	
 	//생성자
+	/*
+	메모리에 올려주는 역할함
+	  코드를 따로 짤 필요가 없음
+	  (기본 생성자)
+	  Goods(클래스명)
+	  */
+	public  Goods() {
+
+	}
 	
 	//메소드
 	//name 등록
