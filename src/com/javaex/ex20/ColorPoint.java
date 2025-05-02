@@ -36,10 +36,11 @@ public class ColorPoint extends Point{
 	}
 	
 	public void showInfo() {
-		System.out.println(super.getX());
-		System.out.println();
-		System.out.println();
-		
+		System.out.println("====================");
+		System.out.println(super.getX()+super.getY());		
+		System.out.println(this.color);
+		System.out.println(this.color);
+		System.out.println("====================");
 	}
 
 	
