@@ -2,11 +2,15 @@ package com.javaex.ex20;
 
 public class Point {
 	//필드
+	/*
 	private int x;
 	private int y;
+	*/
+	protected int x;
+	protected int y;
 	//생성자
 	public Point() {
-		System.out.println("Point()");
+		System.out.println("Point(1)");
 		
 	}
 	

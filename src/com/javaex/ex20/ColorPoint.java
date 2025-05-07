@@ -16,10 +16,25 @@ public class ColorPoint extends Point{
 	}
 	
 	 public ColorPoint(int x, int y, String color) {
+		 /*
+		  * 초기화1
 	        super(x, y);               
 	        this.color = color;        
 	        System.out.println("ColorPoint(3)");
-		
+		*/
+		 /*
+		  * 초기화2
+		 super();
+		 super.setX(x);
+		 super.setY(y);
+		 this.color = color;
+		 */
+		 //초기화 3protected 일때 사용
+		 super.x=x;
+		 super.y=y;
+		 this.color = color;
+		 System.out.println("ColorPoint(3)");
+		 
 	}
 	 //////////////////////////////////////
 	//메소드gs
@@ -36,15 +51,19 @@ public class ColorPoint extends Point{
 	}
 	
 	public void showInfo() {
-		System.out.println(super.getX());
-		System.out.println();
-		System.out.println();
+		/*
+		System.out.println("==========================");
+		System.out.println("x="+super.getX());
+		System.out.println("y="+super.getY());
+		System.out.println("color="+this.color);
+		System.out.println("==========================");
+		*/
+		System.out.println("==========================");
+		System.out.println("x="+x);
+		System.out.println("y="+y);
+		System.out.println("color="+ color);
+		System.out.println("==========================");
 		
 	}
 
-	
-	
-	
-	
-	
 }
