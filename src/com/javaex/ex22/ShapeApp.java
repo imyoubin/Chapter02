@@ -5,7 +5,7 @@ public class ShapeApp {
 	public static void main(String[] args) {
 		
 		
-		Shape s01 = new Shape("빨강", "검정");
+		Shape s01 = new Shape("빨강", "검정");	//
 		System.out.println(s01.toString());
 		
 		//선, 면의색이 없는 삼각형은 잘못된것임
@@ -48,6 +48,7 @@ public class ShapeApp {
 		Shape[] sArray = new Shape[3];
 		
 		//도형담기
+		//sArray[0] = t01; //업 캐스팅 자동으로 섞어쓰기 가능
 		sArray[0] = st;
 		sArray[1] = sc;
 		sArray[2] = sr;
@@ -60,8 +61,18 @@ public class ShapeApp {
 		for(int i=0; i<sArray.length; i++) {
 			sArray[i].draw();
 		}
-			
+		//**다운 캐스팅**
+		//명시적으로 타입변환을 하여야 한다.
+
+		//첫번째(삼각형)의 가로값 출력 -->가려져서 못읽음	
+		System.out.println(((Triangle)sArray[0]).getWidth());
+		//사각형 가로
+		System.out.println(((Rectangle)sArray[2]).getWidth());
+		//원의 반지름
+		System.out.println(((Circle)sArray[1]).getRadius());
 		
+		//Shape s =new Shape(); 
+		//s.draw();
 	}
 
 }
