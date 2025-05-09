@@ -1,0 +1,16 @@
+package com.javaex.ex25;
+
+public class Ex02 {
+	
+	public static void main(String[] args) {
+		
+		int[] intArray = new int[] {3,6,9};
+		try {
+		System.out.println(intArray[3]);
+		}catch(ArrayIndexOutOfBoundsException a) {
+			System.out.println("배열의 범위를 벗어났습니다");
+			//System.out.println(e.toString());
+		}
+	}
+
+}
