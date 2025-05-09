@@ -48,8 +48,8 @@ public abstract class Shape {
 	*/
 	
 	
-	//인터페이스 구현
-	//public abstract void draw();  
+	//인터페이스 가 draw()개념을 가지고 있음
+	//public abstract void draw(); 
 
 	public abstract void area();
 	

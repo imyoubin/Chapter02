@@ -63,7 +63,7 @@ public class Triangle extends Shape implements Drawable{
 
 	
 	
-	//넓이구하는 함수
+	//Shape의 area()메소드 오버라이드:  넓이구하는 함수
 	public void area() {
 		System.out.println("삼각형의 넓이--------------------");
 		System.out.println(width*height/2);

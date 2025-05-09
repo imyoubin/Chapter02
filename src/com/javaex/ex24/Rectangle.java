@@ -47,7 +47,8 @@ public class Rectangle extends Shape implements Drawable{
 				+ ", getLineColor()=" + getLineColor() + "]";
 	}
 	
-	//인터페이스 implements Drawable
+
+	//Drawable 인터페이스 구현
 	public void draw() {
 		System.out.println("===사각형을 그렸습니다.================================");
 		System.out.println("면색:" + super.getFillColor() );
@@ -57,7 +58,7 @@ public class Rectangle extends Shape implements Drawable{
 		System.out.println("===================================================");
 	}
 	
-	//부모 Shape 넓이구하는 함수
+	//Shape의 area()메소드 오버라이드:  넓이구하는 함수
 	public void area() {
 		System.out.println("사각형의 넓이--------------------");
 		System.out.println(width*height);
