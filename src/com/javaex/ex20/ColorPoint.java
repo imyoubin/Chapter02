@@ -51,6 +51,7 @@ public class ColorPoint extends Point{
 	}
 	
 	public void showInfo() {
+<<<<<<< HEAD
 		/*
 		System.out.println("==========================");
 		System.out.println("x="+super.getX());
@@ -64,6 +65,13 @@ public class ColorPoint extends Point{
 		System.out.println("color="+ color);
 		System.out.println("==========================");
 		
+=======
+		System.out.println("====================");
+		System.out.println(super.getX()+super.getY());		
+		System.out.println(this.color);
+		System.out.println(this.color);
+		System.out.println("====================");
+>>>>>>> branch 'master' of https://github.com/imyoubin/Chapter02.git
 	}
 
 }

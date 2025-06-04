@@ -68,4 +68,8 @@ public class Triangle {
 		System.out.println("================================");
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'master' of https://github.com/imyoubin/Chapter02.git
